@@ -1,7 +1,7 @@
 {
   "name": "array-visual-sort",
   "version": "0.1.0",
-  "description": "",
+  "description": "Array visual sort web-application",
   "license": "MIT",
   "author": "Oleksandr Aleksieiev",
   "private": true,
@@ -47,9 +47,18 @@
     "@types/node": "^16.11.64",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
+    "@types/react-redux": "^7.1.24",
+    "classnames": "^2.3.2",
+    "gh-pages": "^4.0.0",
+    "i18next": "^21.10.0",
+    "i18next-browser-languagedetector": "^6.1.8",
+    "i18next-xhr-backend": "^3.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-redux": "^8.0.4",
+    "react-router-dom": "^6.4.2",
     "react-scripts": "5.0.1",
+    "redux-saga": "^1.2.1",
     "typescript": "^4.8.4",
     "web-vitals": "^2.1.4"
   },
@@ -57,12 +66,15 @@
     "@types/react-router-dom": "^5.3.3",
     "@typescript-eslint/eslint-plugin": "^5.39.0",
     "@typescript-eslint/parser": "^5.39.0",
+    "autoprefixer": "^10.4.12",
     "eslint": "^8.25.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.31.8",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
-    "prettier": "^2.7.1"
+    "postcss": "^8.4.17",
+    "prettier": "^2.7.1",
+    "tailwindcss": "^3.1.8"
   }
 }
